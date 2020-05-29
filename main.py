@@ -534,6 +534,7 @@ playagain_conf = ''
 def transactions():
     global credsowed
     global credits
+    global winreason
     print(clrscrn)
     print(winreason)
     print('Your current balance is', credits, '. You won', credsowed)
