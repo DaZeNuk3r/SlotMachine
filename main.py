@@ -282,6 +282,7 @@ def spinslots3():
         slot1 = '7'
         slot1_1 = '7'
     elif int(slot1) == 8:
+        slot1_1 = '8'
         slot1 = 'BAR'
     slot2 = randint(1,8)
     if int(slot2) == 1:
