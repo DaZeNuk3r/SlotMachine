@@ -544,7 +544,7 @@ def transactions():
     loop = tqdm(total = int(credsowed), position=0, leave=False)
     while int(credsowed) > 1:
         for k in range(int(credsowed)):
-            loop.set_description('Processing...'.format(k))
+            loop.set_description('Processing...\r'.format(k))
             loop.update(1)
             credsowed = int(credsowed) - 1
         loop.close()
