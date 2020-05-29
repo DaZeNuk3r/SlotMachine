@@ -413,7 +413,7 @@ def winnings():
 
     #all bells
 
-    if int(slot1_1) == 2 and int(slot2_1) == 2 and int(slot3_1) == 3:
+    if int(slot1_1) == 2 and int(slot2_1) == 2 and int(slot3_1) == 2:
         winreason = 'BIG WIN! All slots have bells!'
         credsowed = int(credsowed) + 150 * int(multiplier)
 
