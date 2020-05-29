@@ -549,6 +549,7 @@ def transactions():
     print('\nWould you like to play again?\n')
     playagain_conf = input()
     if 'yes' in playagain_conf.lower():
+        winreason = ''
         multiplieramt()
     else:
         exit()
